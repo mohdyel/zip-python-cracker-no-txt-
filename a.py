@@ -13,7 +13,7 @@ def openZip(file, password=''):
 #zip file
 file = 'File.zip'
 def foo(l):
-     yield from itertools.product(*([l] * 6)) 
+     yield from itertools.product(*([l] * 6)) #heare you put how many characters are in the password (i put 6 here)
 x = 0
 # number or chars you want to add
 for x in foo('1234567890'):
