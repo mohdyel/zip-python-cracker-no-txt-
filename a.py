@@ -25,16 +25,6 @@ for x in foo('1234567890'):
     else:
          print('incorrect:',word) #you can also remove print statement
      
-def openZip(file, password=''):
-    zip = zipfile.ZipFile(file)
-    try:
-        if password == '':
-            zip.extractall()
-        else:
-            zip.extractall(pwd=bytes(word, 'utf-8'))
-        return True
-    except Exception as e:
-        return False
 
 
 
