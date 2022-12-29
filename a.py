@@ -23,7 +23,7 @@ for x in foo('1234567890'):
         print('the correct password is',word)
         break
     else:
-         print('incorrect:',word)
+         print('incorrect:',word) #you can also remove print statement
      
 def openZip(file, password=''):
     zip = zipfile.ZipFile(file)
